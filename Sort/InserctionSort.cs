@@ -20,13 +20,6 @@ namespace Algorithms.Sort {
         public static int[] Sort(int[] A, int n) {
 
             // Performance measure
-            /*
-            Console.WriteLine($"Algorithm .: InserctionSort with {n} keys");
-            var garbageBefore = GC.CollectionCount(0);
-            var memoryBefore = Process.GetCurrentProcess().WorkingSet64 / 1024 / 1024;
-            var sw = Stopwatch.StartNew();
-            */
-
             var PT = PerformanceTracker.StartTrack("InserctionSort", $"with {n} keys");
 
             // Algorithm
@@ -45,20 +38,11 @@ namespace Algorithms.Sort {
             // Performance measure
             PT.Stop();
 
-            /*
-            sw.Stop();
-            var memoryAfter = Process.GetCurrentProcess().WorkingSet64 / 1024 / 1024;
-            
-            Console.WriteLine($"Time      .: {sw.ElapsedMilliseconds} ms");
-            Console.WriteLine($"#Gen0     .: {GC.CollectionCount(0) - garbageBefore}");
-            Console.WriteLine($"#Mem      .: {memoryAfter - memoryBefore}");
-            Console.WriteLine("");
-            */
             return A;
         }
 
         public static void TestSort() {
-            for (int i = 1; i <= 6; i++) {
+            for (int i = 1; i <= 5; i++) {
                 var arrSize = Convert.ToInt32(Math.Pow(10, i));
                 var arr = new int[arrSize];
                 for (int k = 0; k < arrSize; k++) {
