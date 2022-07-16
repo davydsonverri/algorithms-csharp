@@ -12,7 +12,7 @@ namespace Algorithms.Sort {
     public class InserctionSort {
 
         /// <summary>
-        /// Sort values
+        /// Sort values with InserctionSort algorithm
         /// </summary>
         /// <param name="array">Values to be sorted</param>
         /// <param name="n">Array count</param>
