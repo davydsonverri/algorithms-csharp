@@ -2,4 +2,5 @@
 using Algorithms.Sort;
 
 //InserctionSort.TestSort();
-MergeSort.TestSort();
+//MergeSort.TestSort();
+BubbleSort.TestSort();
