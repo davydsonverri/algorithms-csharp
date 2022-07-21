@@ -1,2 +1,2 @@
 # Algorithms
-Implementation of algorithms from the book 'Introduction to Algorithms, Fourth Edition'
+Algorithms and problemns implemented with C#
