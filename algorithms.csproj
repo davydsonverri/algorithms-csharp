@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="CodeInterview\Medium\" />
     <Folder Include="Sort\Results\" />
   </ItemGroup>
 
