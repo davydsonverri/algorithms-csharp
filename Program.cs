@@ -3,4 +3,5 @@ using Algorithms.Sort;
 
 //InserctionSort.TestSort();
 //MergeSort.TestSort();
-BubbleSort.TestSort();
+//BubbleSort.TestSort();
+BinaryGap_01_BiggestGap.Execute(26548);
