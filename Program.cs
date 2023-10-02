@@ -6,7 +6,10 @@ using Algorithms.Sort;
 //BubbleSort.TestSort();
 //BinaryGap_01_BiggestGap.Execute(26548);
 
-var algorithm = new WaterAndJugProblem();
-Console.WriteLine("Result: " + algorithm.Execute(3, 5, 4));
+//var algorithm = new WaterAndJugProblem();
+//Console.WriteLine("Result: " + algorithm.Execute(3, 5, 4));
+
+var algorithm = new LongestSubstringAtLeastKRepeatingCharacter();
+Console.WriteLine("Result: " + algorithm.Execute("aaabb", 3));
 
 
